@@ -42,20 +42,21 @@
         width: 100%;
         height: 100%;
         flex-direction: column;
+        overflow: scroll;
     }
 
     .imageModal img {
         width: 100%;
-        height: 80%;
+        height: 100%;
     }
 
     .img-modal-textbox h2 {
-        font-size: 15px;
+        font-size: 17px;
     }
 
     .img-modal-textbox p {
         line-height: 20px;
-        font-size: 10px;
+        font-size: 12px;
         max-width: none;
     }
 
@@ -63,6 +64,6 @@
         justify-content: flex-start;
         height: 100%;
         padding: 15px;
-        overflow: scroll;
+        
     }
 }
