@@ -2,6 +2,7 @@ import { useState } from "react";
 import "./HomeSection.css";
 import imageArchive from "../storages/imageStorage";
 import ImageModal from "./ImageModal";
+import Navbar from "./Navbar";
 
 function HomeSection() {
   let [imgModal, setImgModal] = useState(false);
@@ -15,12 +16,13 @@ function HomeSection() {
       setImgNum(e);
       document.body.style.overflow = "hidden";
       setImgModal(true);
-      console.log(e);
     }
   };
 
   return (
     <div className="home-entire-container">
+      <Navbar imgModal={imgModal} />
+
       <div className="home-top-textbox display-flex-center text-center">
         <h2>Fine Art Painter,</h2>
         <h1>Woojoon Kim</h1>

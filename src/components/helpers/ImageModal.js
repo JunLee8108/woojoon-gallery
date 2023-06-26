@@ -15,13 +15,13 @@ function ImageModal(props) {
         />
         <div className="img-modal-textbox">
           <div className="img-modal-sub-textbox">
-          <h2>
-            {imageArchive[props.imgNum].name}{" "}
-            <span style={{ fontSize: "14px" }}>
-              ({imageArchive[props.imgNum].year})
-            </span>
-          </h2>
-          <p>{imageArchive[props.imgNum].description}</p>
+            <h2>
+              {imageArchive[props.imgNum].name}{" "}
+              <span style={{ fontSize: "14px" }}>
+                ({imageArchive[props.imgNum].year})
+              </span>
+            </h2>
+            <p>{imageArchive[props.imgNum].description}</p>
           </div>
         </div>
       </div>
