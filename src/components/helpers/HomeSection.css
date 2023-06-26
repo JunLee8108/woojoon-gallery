@@ -104,9 +104,11 @@
     }
 
     .home-mid-flexbox {
-        width: 100%;
+        width: 85%;
         margin-bottom: 50px;
         font-size: 13px;
+        margin-left: 0px;
+        margin-right: 0px;
     }
 
     .home-mid-flexbox h3 {
@@ -114,9 +116,11 @@
     }
 
     .home-mid-flexbox-row {
-        width: 100%;
+        width: 85%;
         margin-bottom: 50px;
         font-size: 12px;
+        margin-left: 0px;
+        margin-right: 0px;
     }
 
 }
