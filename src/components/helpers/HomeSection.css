@@ -88,6 +88,24 @@
 }
 
 /* Media Query */
+@media screen and (max-width: 1366px) {
+    .home-mid-flexbox {
+        width: 75%;
+        margin-bottom: 85px;
+        font-size: 17px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .home-mid-flexbox-row {
+        width: 75%;
+        margin-bottom: 85px;
+        font-size: 15px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
 @media screen and (max-width: 787px) {
     .home-top-textbox h1 {
         font-size: 43px;

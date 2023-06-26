@@ -1,0 +1,86 @@
+.inquiry-modal-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    max-width: 400px;
+    height: 75;
+    background-color: white;
+    padding: 20px;
+    border: 3px solid cornflowerblue;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+form h3 {
+    text-align: center;
+}
+
+.inquiry-name {
+    width: 100%;
+    text-align: center;
+}
+
+.inquiry-message {
+    width: 100%;
+    text-align: center;
+}
+
+input[type="text"] {
+    width: 55%;
+    height: 30px;
+    border-radius: 10px;
+    border: 2px solid cornflowerblue;
+}
+
+textarea {
+    width: 80%;
+    height: 250px;
+    resize: none;
+    border-radius: 10px;
+    border: 2px solid cornflowerblue;
+}
+
+.inquiry-button {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    padding: 30px;
+}
+
+.inquiry-button button {
+    width: 90px;
+    height: 40px;
+    border: none;
+    background: radial-gradient(circle at 12.3% 19.3%, rgb(85, 88, 218) 0%, rgb(95, 209, 249) 100.2%);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.inquiry-button button:hover {
+    background: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
+}
+
+.inquiry-button1 {
+    width: 50%;
+}
+
+.inquiry-button2 {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media screen and (max-width:767px) {
+    .inquiry-modal-container {
+        height: 80%;
+        border: 3px solid cornflowerblue;
+        overflow: scroll;
+    }
+}

@@ -72,7 +72,17 @@
     justify-content: flex-end;
 }
 
-
+/* Media Query */
+@media screen and (max-width: 1366px) {
+    .imageModal {
+        flex-direction: column;
+        overflow: scroll;
+    }
+    .imageModal img {
+        width: 100%;
+        height: 100%;
+    } 
+}
 
 @media screen and (max-width: 787px) {
     .imageModal {
