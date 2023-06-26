@@ -23,6 +23,21 @@ function ImageModal(props) {
             </h2>
             <p>{imageArchive[props.imgNum].description}</p>
           </div>
+          <div className="img-modal-button-container">
+            <div className="img-modal-button-flexbox1">
+              <button>Inquiry</button>
+            </div>
+            <div className="img-modal-button-flexbox2">
+              <button
+                onClick={() => {
+                  props.setImgModal(false);
+                  document.body.style.overflow = "unset";
+                }}
+              >
+                Close
+              </button>
+            </div>
+          </div>
         </div>
       </div>
     </>
