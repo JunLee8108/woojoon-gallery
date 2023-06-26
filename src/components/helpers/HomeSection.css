@@ -63,8 +63,8 @@
 }
 
 .home-mid-flexbox-row {
-    width: 20%;
-    height: 450px;
+    width: 19.5%;
+    height: 500px;
     max-width: 800px;
     text-align: center;
     margin-left: 45px;
@@ -125,23 +125,30 @@
     }
 
     .home-mid-flexbox {
-        width: 85%;
+        width: 82%;
+        height: 300px;
         margin-bottom: 50px;
-        font-size: 13px;
+        font-size: 11px;
         margin-left: 0px;
         margin-right: 0px;
     }
 
     .home-mid-flexbox h4 {
-        margin-top: 25px;
+        margin-top: 5px;
     }
 
     .home-mid-flexbox-row {
-        width: 85%;
+        width: 65%;
+        height: 350px;
         margin-bottom: 50px;
         font-size: 12px;
         margin-left: 0px;
         margin-right: 0px;
+    }
+
+    .home-mid-flexbox-row h4 {
+        font-size: 11px;
+        margin-top: 5px;
     }
 
 }
