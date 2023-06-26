@@ -25,13 +25,18 @@ function InquiryModal(props) {
           </div>
           <div className="inquiry-button">
             <div className="inquiry-button1">
-              <button type="button" onClick={() => {
-                props.setInquiryModal(false);
-                document.body.style.overflow = "unset";
-              }}>Close</button>
+              <button type="submit">Submit</button>
             </div>
             <div className="inquiry-button2">
-              <button type="submit">Submit</button>
+              <button
+                type="button"
+                onClick={() => {
+                  props.setInquiryModal(false);
+                  document.body.style.overflow = "unset";
+                }}
+              >
+                Close
+              </button>
             </div>
           </div>
         </form>

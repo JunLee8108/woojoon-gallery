@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
 
-
 .home-entire-container {
     position: relative;
 }
@@ -36,11 +35,11 @@
 }
 
 .home-mid-flexbox {
-    width: 40%;
+    width: 32%;
     max-width: 800px;
-    height: 550px;
-    margin-left: 45px;
-    margin-right: 45px;
+    height: 400px;
+    margin-left: 65px;
+    margin-right: 55px;
     margin-bottom: 85px;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
     cursor: pointer;
@@ -48,7 +47,7 @@
 
 .home-mid-flexbox img {
     width: 100%;
-    height: 85%;
+    height: 88%;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
 }
 
@@ -58,14 +57,16 @@
     border: 2px solid cornsilk;
 }
 
-.home-mid-flexbox h3 {
-    margin-top: 20px;
+.home-mid-flexbox h4 {
+    margin-top: 6px;
     letter-spacing: 0px;
 }
 
 .home-mid-flexbox-row {
-    width: 25%;
-    height: 100%;
+    width: 20%;
+    height: 450px;
+    max-width: 800px;
+    text-align: center;
     margin-left: 45px;
     margin-right: 45px;
     margin-bottom: 85px;
@@ -73,8 +74,9 @@
     cursor: pointer;
 }
 
-.home-mid-flexbox-row h3 {
-    margin-top: 10px;
+.home-mid-flexbox-row h4 {
+    margin-top: 3px;
+    margin-bottom: 0;
 }
 
 .home-mid-flexbox-row:hover {
@@ -85,6 +87,7 @@
 
 .home-mid-flexbox-row img {
     width: 100%;
+    height: 90%;
 }
 
 /* Media Query */
@@ -129,7 +132,7 @@
         margin-right: 0px;
     }
 
-    .home-mid-flexbox h3 {
+    .home-mid-flexbox h4 {
         margin-top: 25px;
     }
 

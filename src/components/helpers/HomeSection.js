@@ -44,7 +44,7 @@ function HomeSection() {
                     loading="lazy"
                     alt="artwork"
                   ></img>
-                  <h3 className="text-center">{imageArchive[index].name}</h3>
+                  <h4 className="text-center">{imageArchive[index].name}</h4>
                 </div>
               ) : (
                 <div className="home-mid-flexbox" key={index}>
@@ -53,10 +53,9 @@ function HomeSection() {
                     onClick={() => {
                       showModal(imageArchive[index].id);
                     }}
-                    loading="lazy"
                     alt="artwork"
                   />
-                  <h3 className="text-center">{imageArchive[index].name}</h3>
+                  <h4 className="text-center">{imageArchive[index].name}</h4>
                 </div>
               )}
             </>

@@ -1,5 +1,23 @@
 .nav-top-button {
-    width: 100%;
+    width: 50%;
+    height: 50px;
+    left: 0%;
+    border: none;
+    cursor: pointer;
+    color: white;
+    background: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
+    /* background: radial-gradient(circle at 12.3% 19.3%, rgb(85, 88, 218) 0%, rgb(95, 209, 249) 100.2%); */
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    font-size: 20px;
+    box-shadow: 1px 1px 50px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    z-index: 999;
+}
+
+.nav-top-button2 {
+    width: 50%;
+    left: 50%;
     height: 50px;
     border: none;
     cursor: pointer;
@@ -8,9 +26,10 @@
     font-family: 'Dancing Script', cursive;
     font-weight: bold;
     font-size: 20px;
-    box-shadow: 1px 1px 50px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 1px 50px rgba(7, 7, 7, 0.2);
     position: fixed;
     z-index: 999;
+    letter-spacing: 3px;
 }
 
 .nav-top-button:hover {
