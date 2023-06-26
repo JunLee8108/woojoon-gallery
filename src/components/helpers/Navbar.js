@@ -1,7 +1,9 @@
 import "./Navbar.css";
 import { useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 
 function Navbar(props) {
+  let navigate = useNavigate();
   useEffect(() => {
     if (props.imgModal) {
       document.querySelector(".nav-top-button").style.position = "static";
@@ -9,10 +11,11 @@ function Navbar(props) {
       document.querySelector(".nav-top-button").style.position = "fixed";
     }
   });
-  
+
   return (
     <div>
-      <button className="nav-top-button text-center text-black">
+      <button className="nav-top-button text-center text-black" onClick={()=>{
+        navigate("/Profile")}}>
         Woojoon Kim
       </button>
     </div>

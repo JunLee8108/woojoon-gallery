@@ -1,5 +1,9 @@
+import ProfileSection from "../helpers/ProfileSection";
+
 function Profile() {
-    return <div>asd</div>
+    return (
+        <ProfileSection/>
+    );
 }
 
 export default Profile;
