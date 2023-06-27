@@ -19,14 +19,18 @@ function ImageModal(props) {
   return (
     <>
       <div className="imageModal">
-        <img
-          src={imageArchive[props.imgNum].img}
-          onClick={() => {
-            props.setImgModal(false);
-            document.body.style.overflow = "unset";
-          }}
-          alt="modal img"
-        />
+
+        <div className="modalImageClass">
+          <img
+            src={imageArchive[props.imgNum].img}
+            onClick={() => {
+              props.setImgModal(false);
+              document.body.style.overflow = "unset";
+            }}
+            alt="modal img"
+          />
+        </div>
+
         <div className="img-modal-textbox">
           <div className="img-modal-sub-textbox">
             <h2>
@@ -60,7 +64,10 @@ function ImageModal(props) {
           </div>
         </div>
       </div>
-      {inquiryModal == true ? <InquiryModal setInquiryModal={setInquiryModal}/> : null}
+
+      {inquiryModal == true ? (
+        <InquiryModal setInquiryModal={setInquiryModal} />
+      ) : null}
     </>
   );
 }

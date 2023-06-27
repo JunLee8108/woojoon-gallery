@@ -51,12 +51,6 @@
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
 }
 
-.home-mid-flexbox:hover {
-    transform: scale(1.05);
-    transition: all 0.1s linear;
-    border: 2px solid cornsilk;
-}
-
 .home-mid-flexbox h4 {
     margin-top: 6px;
     letter-spacing: 0px;
@@ -64,7 +58,7 @@
 
 .home-mid-flexbox-row {
     width: 19.5%;
-    height: 500px;
+    height: 550px;
     max-width: 800px;
     text-align: center;
     margin-left: 45px;
@@ -79,18 +73,14 @@
     margin-bottom: 0;
 }
 
-.home-mid-flexbox-row:hover {
-    transform: scale(1.05);
-    transition: all 0.1s linear;
-    border: 2px solid cornsilk;
-}
-
 .home-mid-flexbox-row img {
     width: 100%;
     height: 90%;
 }
 
 /* Media Query */
+
+/* Tablet */
 @media screen and (max-width: 1366px) {
     .home-mid-flexbox {
         width: 75%;
@@ -109,6 +99,21 @@
     }
 }
 
+@media (hover: hover) {
+    .home-mid-flexbox:hover {
+        transform: scale(1.05);
+        transition: all 0.1s linear;
+        border: 2px solid cornsilk;
+    }
+
+    .home-mid-flexbox-row:hover {
+        transform: scale(1.05);
+        transition: all 0.1s linear;
+        border: 2px solid cornsilk;
+    }
+}
+
+/* Phone */
 @media screen and (max-width: 787px) {
     .home-top-textbox h1 {
         font-size: 43px;
@@ -138,8 +143,8 @@
     }
 
     .home-mid-flexbox-row {
-        width: 65%;
-        height: 350px;
+        width: 68%;
+        height: 430px;
         margin-bottom: 50px;
         font-size: 12px;
         margin-left: 0px;
@@ -148,7 +153,7 @@
 
     .home-mid-flexbox-row h4 {
         font-size: 11px;
-        margin-top: 5px;
+        margin-top: 8px;
     }
 
 }
