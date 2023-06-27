@@ -27,7 +27,7 @@ function HomeSection() {
 
       <div className="home-top-textbox display-flex-center text-center">
         <h2>Fine Art Painter,</h2>
-        <h1>Woojoon Kim <FontAwesomeIcon icon={faPenNib} /></h1>
+        <h1>Woojoon Kim <FontAwesomeIcon icon={faPenNib} fade /></h1>
       </div>
 
       <div className="home-mid-container display-flex-center">

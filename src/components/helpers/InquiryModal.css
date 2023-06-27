@@ -80,7 +80,7 @@ textarea {
 
 @media screen and (max-width:767px) {
     .inquiry-modal-container {
-        height: 80%;
+        width: 100%;
         border: 3px solid cornflowerblue;
         overflow: auto;
     }

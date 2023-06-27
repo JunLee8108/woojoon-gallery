@@ -32,7 +32,6 @@ function InquiryModal(props) {
                 type="button"
                 onClick={() => {
                   props.setInquiryModal(false);
-                  document.body.style.overflow = "unset";
                 }}
               >
                 Close

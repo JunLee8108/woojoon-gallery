@@ -60,7 +60,6 @@ function ImageModal(props) {
           </div>
         </div>
       </div>
-
       {inquiryModal == true ? <InquiryModal setInquiryModal={setInquiryModal}/> : null}
     </>
   );
