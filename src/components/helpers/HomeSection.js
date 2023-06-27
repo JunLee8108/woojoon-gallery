@@ -1,5 +1,5 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faPenNib } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPenNib } from "@fortawesome/free-solid-svg-icons";
 import { useState } from "react";
 import "./HomeSection.css";
 import imageArchive from "../storages/imageStorage";
@@ -23,11 +23,13 @@ function HomeSection() {
 
   return (
     <div className="home-entire-container">
-      <Navbar imgModal={imgModal} />
+      <Navbar imgModal={imgModal} homeNum="1"/>
 
       <div className="home-top-textbox display-flex-center text-center">
         <h2>Fine Art Painter,</h2>
-        <h1>Woojoon Kim <FontAwesomeIcon icon={faPenNib} fade /></h1>
+        <h1>
+          Woojoon Kim <FontAwesomeIcon icon={faPenNib} fade />
+        </h1>
       </div>
 
       <div className="home-mid-container display-flex-center">

@@ -1,9 +1,32 @@
 import "./ProfileSection.css";
+import Navbar from "./Navbar";
+import { useNavigate } from "react-router-dom";
 
 function ProfileSection() {
-    return (
-        <div>asasdasdd</div>
-    );
+  return (
+    <>
+      {/* Navbar */}
+      <NavbarProfile />
+      {/* Body */}
+      <div>asasdasdd</div>
+    </>
+  );
+}
+
+function NavbarProfile() {
+  let navigate = useNavigate();
+  return (
+    <div>
+      <button
+        className="nav-top-button text-center text-black"
+        onClick={() => {
+          navigate("/");
+        }}
+      >
+        Woojoon Kim
+      </button>
+    </div>
+  );
 }
 
 export default ProfileSection;
