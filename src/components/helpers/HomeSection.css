@@ -58,7 +58,7 @@
 
 .home-mid-flexbox-row {
     width: 19.5%;
-    height: 550px;
+    height: 500px;
     max-width: 800px;
     text-align: center;
     margin-left: 45px;
@@ -69,7 +69,7 @@
 }
 
 .home-mid-flexbox-row h4 {
-    margin-top: 3px;
+    margin-top: 5px;
     margin-bottom: 0;
 }
 
@@ -84,18 +84,34 @@
 @media screen and (max-width: 1366px) {
     .home-mid-flexbox {
         width: 75%;
+        max-width: 700px;
         margin-bottom: 85px;
+        height: 430px;
         font-size: 17px;
         margin-left: 0px;
         margin-right: 0px;
     }
 
+    .home-mid-flexbox img {
+        height: 87%;
+    }
+
+    .home-mid-flexbox h4 {
+        margin-top: 10px;
+    }
+
     .home-mid-flexbox-row {
-        width: 75%;
+        width: 55%;
+        max-width: 595px;
         margin-bottom: 85px;
         font-size: 15px;
         margin-left: 0px;
         margin-right: 0px;
+        height: 530px;
+    }
+
+    .home-mid-flexbox-row h4 {
+        margin-top: 8px;
     }
 }
 
@@ -114,7 +130,7 @@
 }
 
 /* Phone */
-@media screen and (max-width: 787px) {
+@media screen and (max-width: 767px) {
     .home-top-textbox h1 {
         font-size: 43px;
         margin-bottom: -90px;
@@ -131,7 +147,7 @@
 
     .home-mid-flexbox {
         width: 82%;
-        height: 300px;
+        height: 280px;
         margin-bottom: 50px;
         font-size: 11px;
         margin-left: 0px;
@@ -139,7 +155,11 @@
     }
 
     .home-mid-flexbox h4 {
-        margin-top: 5px;
+        margin-top: 8px;
+    }
+
+    .home-mid-flexbox img {
+        height: 85%;
     }
 
     .home-mid-flexbox-row {

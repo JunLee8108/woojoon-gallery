@@ -23,7 +23,7 @@ function HomeSection() {
 
   return (
     <div className="home-entire-container">
-      <Navbar imgModal={imgModal} homeNum="1"/>
+      <Navbar imgModal={imgModal} />
 
       <div className="home-top-textbox display-flex-center text-center">
         <h2>Fine Art Painter,</h2>

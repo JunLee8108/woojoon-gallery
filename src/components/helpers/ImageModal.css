@@ -12,7 +12,12 @@
 }
 
 .modalImageClass {
-    width: 60%;
+    width: 45%;
+    display: flex;
+}
+
+.modalImageClass2 {
+    width: 65%;
     display: flex;
 }
 
@@ -21,7 +26,7 @@
 }
 
 .img-modal-textbox {
-    width: 40%;
+    width: 55%;
     padding: 15px;
     display: flex;
     align-items: center;
@@ -35,6 +40,26 @@
 }
 
 .img-modal-textbox p {
+    max-width: 2500px;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.img-modal-textbox2 {
+    width: 35%;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.img-modal-textbox2 h2 {
+    margin: 0;
+    width: 100%;
+}
+
+.img-modal-textbox2 p {
     max-width: 2500px;
     line-height: 30px;
     font-size: 18px;
@@ -80,18 +105,65 @@
 }
 
 /* Media Query */
-/* @media screen and (max-width: 1366px) {
+@media screen and (max-width: 1366px) {
     .imageModal {
-        flex-direction: column;
-        overflow: auto;
+        width: 100%;
+        height: 100%;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        overflow-y: auto;
     }
     .imageModal img {
         width: 100%;
-        height: 100%;
-    } 
-} */
+    }
 
-@media screen and (max-width: 787px) {
+    .modalImageClass {
+        width: 100%;
+    }
+
+    .modalImageClass2 {
+        width: 100%;
+    }
+
+    .img-modal-textbox {
+        width: 100%;
+    }
+
+     .img-modal-textbox h2 {
+        margin-top: 20px;
+        font-size: 23px;
+    }
+
+    .img-modal-textbox p {
+        line-height: 30px;
+        font-size: 18px;
+        max-width: none;
+    }
+
+    .img-modal-textbox2 {
+        width: 100%;
+    }
+
+     .img-modal-textbox2 h2 {
+        font-size: 23px;
+        margin-top: 20px;
+    }
+
+    .img-modal-textbox2 p {
+        line-height: 30px;
+        font-size: 18px;
+        max-width: none;
+    }
+
+    .img-modal-button-container button {
+        width: 90px;
+        height: 40px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 767px) {
     .imageModal {
         width: 100%;
         height: 100%;
@@ -100,7 +172,15 @@
         overflow-y: auto;
     }
 
+    .imageModal img {
+        width: 100%;
+    }
+
     .modalImageClass {
+        width: 100%;
+    }
+
+    .modalImageClass2 {
         width: 100%;
     }
 
@@ -113,6 +193,20 @@
     }
 
     .img-modal-textbox p {
+        line-height: 25px;
+        font-size: 15px;
+        max-width: none;
+    }
+
+    .img-modal-textbox2 {
+        width: 100%;
+    }
+
+     .img-modal-textbox2 h2 {
+        font-size: 20px;
+    }
+
+    .img-modal-textbox2 p {
         line-height: 25px;
         font-size: 15px;
         max-width: none;

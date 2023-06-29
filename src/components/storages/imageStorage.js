@@ -42,7 +42,7 @@ const imageArchive = [
   {
     id: 4,
     img: img4,
-    name: "Toad’s Houseaka",
+    name: "Toad’s House",
     year: 2023,
     description:
       "In Korea, toads often symbolize the wisdom, rich, and stability. And if you take a brief look at the history of Korea, it is full of continuous internal changes brought by the invaders from different countries due to its geographical location. And often times it was the common people who were suffered and sacrificed from these drastic changes within the society. Originally, Toad’s house is a traditional children’s song and play from Korea, where kids sing “Toad, Toad, I will give my old house, so give me a new house” while digging a tunnel in the ground. Perhaps this absurd lyrics represent my ancestor’s desire to live in a stability after facing numerous shifts.",
