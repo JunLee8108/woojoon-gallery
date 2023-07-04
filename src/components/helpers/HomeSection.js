@@ -43,7 +43,6 @@ function HomeSection() {
                     onClick={() => {
                       showModal(imageArchive[index].id);
                     }}
-                    loading="lazy"
                     alt="artwork"
                   ></img>
                   <h4 className="text-center">{imageArchive[index].name}</h4>
@@ -66,7 +65,7 @@ function HomeSection() {
       </div>
 
       {imgModal == true ? (
-        <ImageModal imgNum={imgNum} setImgModal={setImgModal} />
+        <ImageModal imgNum={imgNum} setImgModal={setImgModal} imgModal={imgModal}/>
       ) : null}
     </div>
   );

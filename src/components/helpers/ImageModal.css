@@ -1,221 +1,235 @@
 /* Image Modal */
+.image-modal-container {
+  opacity: 0;
+}
+
+.image-modal-container-fade {
+  opacity: 1;
+  transition: 0.5s;
+}
+
 .imageModal {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 100%;
-    height: 100%;
-    background-color: white;
-    display: flex;
-    justify-content: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
 }
 
 .modalImageClass {
-    width: 45%;
-    display: flex;
+  width: 45%;
+  display: flex;
 }
 
 .modalImageClass2 {
-    width: 65%;
-    display: flex;
+  width: 65%;
+  display: flex;
 }
 
 .imageModal img {
-    width: 100%;
+  width: 100%;
 }
 
 .img-modal-textbox {
-    width: 55%;
-    padding: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+  width: 55%;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .img-modal-textbox h2 {
-    margin: 0;
-    width: 100%;
+  margin: 0;
+  width: 100%;
 }
 
 .img-modal-textbox p {
-    max-width: 2500px;
-    line-height: 30px;
-    font-size: 18px;
+  max-width: 2500px;
+  line-height: 30px;
+  font-size: 18px;
 }
 
 .img-modal-textbox2 {
-    width: 35%;
-    padding: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+  width: 35%;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .img-modal-textbox2 h2 {
-    margin: 0;
-    width: 100%;
+  margin: 0;
+  width: 100%;
 }
 
 .img-modal-textbox2 p {
-    max-width: 2500px;
-    line-height: 30px;
-    font-size: 18px;
+  max-width: 2500px;
+  line-height: 30px;
+  font-size: 18px;
 }
 
 .img-modal-sub-textbox {
-    width: 80%;
+  width: 80%;
+  opacity: 1;
 }
 
 .img-modal-button-container {
-    display: flex;
-    width: 80%;
+  display: flex;
+  width: 80%;
 }
 
 .img-modal-button-container button {
-    width: 100px;
-    height: 50px;
-    background: linear-gradient(to top, #dfe9f3 0%, white 100%);
-    border: none;
-    color: black;
-    cursor: pointer;
-    font-weight: bold;
-    border-radius: 5px;
+  width: 100px;
+  height: 50px;
+  background: linear-gradient(to top, #dfe9f3 0%, white 100%);
+  border: none;
+  color: black;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 5px;
 }
 
 .img-modal-button-container button:hover {
-    background: radial-gradient(circle at 12.3% 19.3%, rgb(85, 88, 218) 0%, rgb(95, 209, 249) 100.2%);
-    transform: scale(1.1);
-    color: white;
-    transition: all 0.2s linear;
+  background: radial-gradient(
+    circle at 12.3% 19.3%,
+    rgb(85, 88, 218) 0%,
+    rgb(95, 209, 249) 100.2%
+  );
+  transform: scale(1.1);
+  color: white;
+  transition: all 0.2s linear;
 }
 
 .img-modal-button-flexbox1 {
-    width: 100%;
-    display: flex;
-    justify-content: flex-start;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
 }
 
 .img-modal-button-flexbox2 {
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
 }
 
 /* Media Query */
 @media screen and (max-width: 1366px) {
-    .imageModal {
-        width: 100%;
-        height: 100%;
-        flex-wrap: wrap;
-        justify-content: flex-start;
-        overflow-y: auto;
-    }
-    .imageModal img {
-        width: 100%;
-    }
+  .imageModal {
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    overflow-y: auto;
+  }
+  .imageModal img {
+    width: 100%;
+  }
 
-    .modalImageClass {
-        width: 100%;
-    }
+  .modalImageClass {
+    width: 100%;
+  }
 
-    .modalImageClass2 {
-        width: 100%;
-    }
+  .modalImageClass2 {
+    width: 100%;
+  }
 
-    .img-modal-textbox {
-        width: 100%;
-    }
+  .img-modal-textbox {
+    width: 100%;
+  }
 
-     .img-modal-textbox h2 {
-        margin-top: 20px;
-        font-size: 23px;
-    }
+  .img-modal-textbox h2 {
+    margin-top: 20px;
+    font-size: 23px;
+  }
 
-    .img-modal-textbox p {
-        line-height: 30px;
-        font-size: 18px;
-        max-width: none;
-    }
+  .img-modal-textbox p {
+    line-height: 30px;
+    font-size: 18px;
+    max-width: none;
+  }
 
-    .img-modal-textbox2 {
-        width: 100%;
-    }
+  .img-modal-textbox2 {
+    width: 100%;
+  }
 
-     .img-modal-textbox2 h2 {
-        font-size: 23px;
-        margin-top: 20px;
-    }
+  .img-modal-textbox2 h2 {
+    font-size: 23px;
+    margin-top: 20px;
+  }
 
-    .img-modal-textbox2 p {
-        line-height: 30px;
-        font-size: 18px;
-        max-width: none;
-    }
+  .img-modal-textbox2 p {
+    line-height: 30px;
+    font-size: 18px;
+    max-width: none;
+  }
 
-    .img-modal-button-container button {
-        width: 90px;
-        height: 40px;
-        margin-top: 10px;
-        margin-bottom: 30px;
-    }
+  .img-modal-button-container button {
+    width: 90px;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
 }
 
 @media screen and (max-width: 767px) {
-    .imageModal {
-        width: 100%;
-        height: 100%;
-        flex-wrap: wrap;
-        justify-content: flex-start;
-        overflow-y: auto;
-    }
+  .imageModal {
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    overflow-y: auto;
+  }
 
-    .imageModal img {
-        width: 100%;
-    }
+  .imageModal img {
+    width: 100%;
+  }
 
-    .modalImageClass {
-        width: 100%;
-    }
+  .modalImageClass {
+    width: 100%;
+  }
 
-    .modalImageClass2 {
-        width: 100%;
-    }
+  .modalImageClass2 {
+    width: 100%;
+  }
 
-    .img-modal-textbox {
-        width: 100%;
-    }
+  .img-modal-textbox {
+    width: 100%;
+  }
 
-     .img-modal-textbox h2 {
-        font-size: 20px;
-    }
+  .img-modal-textbox h2 {
+    font-size: 20px;
+  }
 
-    .img-modal-textbox p {
-        line-height: 25px;
-        font-size: 15px;
-        max-width: none;
-    }
+  .img-modal-textbox p {
+    line-height: 25px;
+    font-size: 15px;
+    max-width: none;
+  }
 
-    .img-modal-textbox2 {
-        width: 100%;
-    }
+  .img-modal-textbox2 {
+    width: 100%;
+  }
 
-     .img-modal-textbox2 h2 {
-        font-size: 20px;
-    }
+  .img-modal-textbox2 h2 {
+    font-size: 20px;
+  }
 
-    .img-modal-textbox2 p {
-        line-height: 25px;
-        font-size: 15px;
-        max-width: none;
-    }
+  .img-modal-textbox2 p {
+    line-height: 25px;
+    font-size: 15px;
+    max-width: none;
+  }
 
-    .img-modal-button-container button {
-        width: 90px;
-        height: 40px;
-        margin-top: 10px;
-        margin-bottom: 30px;
-    }
+  .img-modal-button-container button {
+    width: 90px;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
 }

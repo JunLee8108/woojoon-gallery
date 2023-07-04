@@ -7,7 +7,9 @@ function ProfileSection() {
       {/* Navbar */}
       <NavbarProfile />
       {/* Body */}
-      <div>asasdasdd</div>
+      <div>
+        asasdasdd
+        </div>
     </>
   );
 }

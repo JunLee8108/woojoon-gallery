@@ -1,7 +1,7 @@
 import imageArchive from "../storages/imageStorage";
 import InquiryModal from "./InquiryModal";
 import "./ImageModal.css";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import styled from "styled-components";
 
 function ImageModal(props) {
@@ -17,8 +17,17 @@ function ImageModal(props) {
     }
   };
 
+  let [fade, setFade] = useState('');
+
+  useEffect(() => {
+    setFade("image-modal-container-fade");
+    return (() => {
+      setFade("");
+    })
+  }, [])
+
   return (
-    <>
+    <div className={"image-modal-container " + fade}>
       {props.imgNum < 4 ? (
         <div className="imageModal">
           <div className="modalImageClass2">
@@ -116,7 +125,7 @@ function ImageModal(props) {
       {inquiryModal == true ? (
         <InquiryModal setInquiryModal={setInquiryModal} />
       ) : null}
-    </>
+    </div>
   );
 }
 
