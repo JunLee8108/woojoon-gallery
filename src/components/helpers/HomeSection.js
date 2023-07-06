@@ -26,9 +26,10 @@ function HomeSection() {
       <Navbar imgModal={imgModal} />
 
       <div className="home-top-textbox display-flex-center text-center">
-        <h2>Fine Art Painter,</h2>
+        <h2>Fine Art Painter</h2>
         <h1>
-          Woojoon Kim <FontAwesomeIcon icon={faPenNib} fade />
+          Artist.
+          {/* Woojoon Kim <FontAwesomeIcon icon={faPenNib} fade /> */}
         </h1>
       </div>
 
@@ -65,7 +66,11 @@ function HomeSection() {
       </div>
 
       {imgModal == true ? (
-        <ImageModal imgNum={imgNum} setImgModal={setImgModal} imgModal={imgModal}/>
+        <ImageModal
+          imgNum={imgNum}
+          setImgModal={setImgModal}
+          imgModal={imgModal}
+        />
       ) : null}
     </div>
   );

@@ -92,15 +92,16 @@
   color: black;
   cursor: pointer;
   font-weight: bold;
-  border-radius: 5px;
+  
 }
 
 .img-modal-button-container button:hover {
-  background: radial-gradient(
+  /* background: radial-gradient(
     circle at 12.3% 19.3%,
     rgb(85, 88, 218) 0%,
     rgb(95, 209, 249) 100.2%
-  );
+  ); */
+  background: black;
   transform: scale(1.1);
   color: white;
   transition: all 0.2s linear;

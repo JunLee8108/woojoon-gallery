@@ -21,7 +21,7 @@ function Navbar(props) {
           navigate("/Profile");
         }}
       >
-        Woojoon Kim
+        WOOJOON KIM
       </button>
     </div>
   );

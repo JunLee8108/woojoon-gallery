@@ -7,9 +7,7 @@ function ProfileSection() {
       {/* Navbar */}
       <NavbarProfile />
       {/* Body */}
-      <div>
-        asasdasdd
-        </div>
+      <div>asasdasdd</div>
     </>
   );
 }
@@ -24,7 +22,7 @@ function NavbarProfile() {
           navigate("/");
         }}
       >
-        Woojoon Kim
+        WOOJOON KIM
       </button>
     </div>
   );
