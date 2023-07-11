@@ -20,6 +20,7 @@ function NavbarProfile() {
         className="nav-top-button text-center text-black"
         onClick={() => {
           navigate("/");
+          document.body.style.overflow = "unset"
         }}
       >
         WOOJOON KIM
