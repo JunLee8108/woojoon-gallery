@@ -15,7 +15,7 @@ function ProfileSection() {
 function NavbarProfile() {
   let navigate = useNavigate();
   return (
-    <div>
+    <div className="nav-bar-container">
       <button
         className="nav-top-button text-center text-black"
         onClick={() => {
@@ -24,6 +24,7 @@ function NavbarProfile() {
       >
         WOOJOON KIM
       </button>
+      <progress className="progressBar"></progress>
     </div>
   );
 }
