@@ -46,7 +46,7 @@ function Navbar(props) {
       >
         WOOJOON KIM
       </button>
-      <progress className="progressBar"></progress>
+      <progress className="progressBar" value="0"></progress>
     </div>
   );
 }
