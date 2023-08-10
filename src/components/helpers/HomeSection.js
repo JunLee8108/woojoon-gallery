@@ -1,5 +1,3 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPenNib } from "@fortawesome/free-solid-svg-icons";
 import { useState } from "react";
 import "./HomeSection.css";
 import imageArchive from "../storages/imageStorage";
@@ -65,7 +63,7 @@ function HomeSection() {
           })}
         </div>
 
-        {imgModal == true ? (
+        {imgModal ? (
           <ImageModal
             imgNum={imgNum}
             setImgModal={setImgModal}
