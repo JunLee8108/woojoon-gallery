@@ -137,16 +137,19 @@
 @media (hover: hover) {
   .home-mid-flexbox:hover,
   .home-mid-flexbox-row:hover {
-    transform: scale(1.1);
-    transition: all 0.25s linear;
+    border: 2px solid black;
+    transform: scale(1.05);
+    transition: all 0.2s linear;
   }
 
   .home-mid-flexbox:not(:hover) {
+    border: 2px solid transparent;
     transform: scale(1);
     transition: all 0.2s linear;
   }
 
   .home-mid-flexbox-row:not(:hover) {
+    border: 2px solid transparent;
     transform: scale(1);
     transition: all 0.2s linear;
   }
