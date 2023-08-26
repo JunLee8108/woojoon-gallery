@@ -116,8 +116,11 @@
     rgb(95, 209, 249) 100.2%
   ); */
   background: black;
-  transform: scale(1.1);
   color: white;
+  transition: all 0.2s linear;
+}
+
+.img-modal-button-container button:not(:hover) {
   transition: all 0.2s linear;
 }
 

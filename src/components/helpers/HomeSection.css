@@ -135,14 +135,20 @@
 }
 
 @media (hover: hover) {
-  .home-mid-flexbox:hover {
-    transform: scale(1.05);
-    transition: all 0.1s linear;
+  .home-mid-flexbox:hover,
+  .home-mid-flexbox-row:hover {
+    transform: scale(1.1);
+    transition: all 0.25s linear;
   }
 
-  .home-mid-flexbox-row:hover {
-    transform: scale(1.05);
-    transition: all 0.1s linear;
+  .home-mid-flexbox:not(:hover) {
+    transform: scale(1);
+    transition: all 0.2s linear;
+  }
+
+  .home-mid-flexbox-row:not(:hover) {
+    transform: scale(1);
+    transition: all 0.2s linear;
   }
 }
 
@@ -164,7 +170,7 @@
   }
 
   .home-mid-flexbox {
-    width: 100%;
+    width: 95%;
     height: 280px;
     margin-bottom: 50px;
     font-size: 11px;
